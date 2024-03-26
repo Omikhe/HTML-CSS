@@ -2,6 +2,136 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
   /* border: 1px solid white; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid white; */
+}
+
+/* Nav Section */
+.navContainer {
+  background-color: #1f2937;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  width: 1610px;
+}
+
+.listItems {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoFlex,
+.flame {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.link-item {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-left: 80px;
+}
+
+.userAccountsButton:hover {
+  padding: 10px 30px;
+  border: none;
+  font-size: 20px;
+  border-radius: 7.5px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border: 2px solid #3882f6;
+  margin-left: 20px;
+}
+.userAccountsButton {
+  padding: 10px 30px;
+  border: 2px solid #e5e7eb;
+  font-size: 20px;
+  border-radius: 7.5px;
+  color: #e5e7eb;
+  margin-left: 20px;
+  background: none;
+}
+
+.searchBox {
+}
+
+/* Hero Section */
+.homepage {
+  background-color: #1f2937;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  height: 720px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url("halo.jpeg");
+}
+
+.hero {
+  /* border: 1px solid white; */
+  width: 1610px;
+}
+
+.hero-text {
+  padding: 400px 0;
+  color: #e5e7eb;
+}
+
+.title {
+  font-size: 100px;
+}
+
+.body-text {
+  font: 61px;
+  width: 600px;
+}
+
+.hero-button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: none;
+  font-size: 20px;
+  border-radius: 7.5px;
+  color: #e5e7eb;
+  background: none;
+  border: 2px solid #e5e7eb;
+  margin-right: 20px;
+}
+
+.hero-button:hover,
+#watch {
+  margin-top: 10px;
+  padding: 10px 30px;
+  border: none;
+  font-size: 20px;
+  border-radius: 7.5px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border: 2px solid #3882f6;
+  margin-right: 20px;
+}
+
+#watch {
+  background-color: #3882f6;
 }
