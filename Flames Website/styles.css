@@ -73,7 +73,6 @@
   padding: 10px 30px;
   border: none;
   font-size: 20px;
-  border-radius: 7.5px;
   color: #e5e7eb;
   background-color: #3882f6;
   border: 2px solid #3882f6;
@@ -83,7 +82,6 @@
   padding: 10px 30px;
   border: 2px solid #e5e7eb;
   font-size: 20px;
-  border-radius: 7.5px;
   color: #e5e7eb;
   margin-left: 20px;
   background: none;
@@ -166,4 +164,13 @@
   align-items: end;
   margin-right: 45px;
   overflow: hidden;
+}
+
+/* More movies */
+.more-movies {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  height: 1080px;
+  background-color: black;
 }
