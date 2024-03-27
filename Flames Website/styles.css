@@ -35,6 +35,21 @@
   background-color: #f9faf8;
   margin-left: 20px;
 }
+.notification {
+  border-radius: 50%;
+  color: white;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(217, 17, 17);
+  position: relative;
+  left: 35px;
+  bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding: 15px;
+}
 
 .logoFlex,
 .flame {
@@ -97,7 +112,7 @@
 .hero-text {
   /* border: 1px solid white; */
   margin: 0;
-  padding: 250px 0 50px 0;
+  padding: 150px 0 50px 0;
   color: #e5e7eb;
 }
 
