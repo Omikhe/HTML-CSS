@@ -172,6 +172,12 @@
   align-items: end;
   margin-right: 45px;
   overflow: hidden;
+  color: black;
+}
+
+.most-title {
+  position: absolute;
+  color: black;
 }
 
 /* More movies */
