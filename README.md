@@ -1,6 +1,6 @@
 # HTML and CSS Projects
 
-This repository contains a collection of HTML and CSS projects that I've worked on. Each project focuses on different aspects of web development, showcasing my skills in creating responsive and visually appealing web pages. Some of these projects were assigned as part of the Harvard CS50 program, focusing on different aspects of web development.
+This repository contains a collection of HTML and CSS projects that I've worked on. Each project focuses on different aspects of web development, showcasing my skills in creating responsive and visually appealing web pages. Some of these projects were assigned as part of the Odin Project web dev foundations, focusing on different aspects of web development.
 
 ## How to Run:
 
@@ -12,6 +12,7 @@ This repository contains a collection of HTML and CSS projects that I've worked 
 
 - HTML
 - CSS
+- JavaScript
 
 ## Contributing:
 
